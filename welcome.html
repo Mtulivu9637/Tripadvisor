@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome Page</title>
+  </head>
+  <body>
+    <h1>Welcome: <span id="first-name"></span></h1>
+    <p>Your registration number is <span id="reg-number"></span></p>
+    <p>You are <span id="age"></span> years old.</p>
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);     
+      /*var firstName = sessionStorage.getItem("first-name");
+      var regNumber = sessionStorage.getItem("reg-number");
+      var age = sessionStorage.getItem("age");*/
+      var name = urlParams.get('first');
+      document.getElementById("first-name").innerHTML =`Welcome: ${first}`;
+      document.getElementById("reg-number")= reg-number;
+      document.getElementById("age").value= age;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+#home {
+  text-align: center;
+}
+
+#header {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+#header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#header p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+#header form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 50%;
+  margin-right: 10px;
+}
+
+#header button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#popular-destinations {
+  padding: 50px;
+}
+
+#popular-destinations h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.destination-card {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: left;
+  width: 30%;
+}
+
+.destination-card img {
+  width: 100%;
+  height: auto;
+}
+
+.destination-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.destination-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.destination-card button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

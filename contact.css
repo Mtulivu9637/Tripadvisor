@@ -1,0 +1,145 @@
+/* Navigation */
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+/* Hero section */
+.hero {
+	background-image: url('contact.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	text-align: center;
+}
+
+.hero h1 {
+	font-size: 3em;
+	margin: 0;
+	text-shadow: 2px 2px #000;
+}
+
+/* Contact form */
+.content {
+	padding: 50px 0;
+}
+
+.content h2 {
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+.content p {
+	font-size: 1.1em;
+	margin-bottom: 30px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 1.1em;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	padding: 10px;
+	font-size: 1.1em;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+	outline: none;
+	border-color: #06c;
+}
+
+textarea {
+	height: 150px;
+}
+
+button[type="submit"] {
+	background-color: #06c;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.1em;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+	background-color: #004080;
+}
+
+/* Footer section */
+footer {
+	background-color: #222;
+	color: #ddd;
+	padding: 50px 0;
+}
+
+.footer h4 {
+	font-size: 1.5em;
+	margin-bottom: 30px;
+}
+
+.footer p {
+	font-size: 1.1em;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+.social-media {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.social-media li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.social-media li:last-child {
+	margin-right: 0;
+}
+
+.social-media a {
+	display: block;
+	background-color: #fff;
+	color: #06c;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.2em;
+	text-align: center;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+}
+
+.social-media a:hover {
+	background-color: #06c;
+	color: #fff;
+}
